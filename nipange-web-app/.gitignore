@@ -1,12 +1,11 @@
 # Environment variables
 .env
 .env.local
+.env.production
 .env.*.local
 
 # Keep example and base environment files
-!.env.example
 !.env.development
-!.env.production
 
 # Dependencies
 node_modules/
